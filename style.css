@@ -4,8 +4,8 @@
 :root {
     --bg-color:#7a46a5;
     --primary-color:#7c87c5;
-    --secundary-color:#5DEBD7;
--- font: "Oswald", sans-serif;
+    --secundary-color:#775deb;
+    -- font: "Oswald", sans-serif;
 }
 body{
     background-color: var(--bg-color);
@@ -40,8 +40,21 @@ footer{
     align-items: center;
 justify-content: center;
 background-color: var(--primary-color);
-color: var(--bg-color)
+color: var(--bg-color);
 width: 100%;
 height: 3rem;
 margin-top: 2rem;
+}
+.graficos-container{
+    margin: 5rem;
+}
+.graficos-container-texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secundary-color) solid 2px;
+}
+span {
+    font-weight: bold;
+    color: var(--secundary-color);
 }
